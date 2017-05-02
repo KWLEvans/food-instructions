@@ -1,0 +1,6 @@
+name = Follow - GitHub
+description = Add github link functionality to the Follow module.
+package = Custom Modules
+core = 7.x
+files[] = follow_gh.module
+stylesheets[all][] = follow_gh.css
