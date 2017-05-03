@@ -1,0 +1,88 @@
+body{
+    /*background-color: #ffe6e6;*/
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../images-source/restaurant_icons.png');
+}
+
+.header__name-and-slogan:hover {
+    text-decoration: none !important;
+}
+
+a {
+    color: #7EC6D9;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #FBA45B;
+}
+
+a:visited {
+    color: #B9CECF;
+}
+
+.node {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5%;
+    border: 2px solid #7EC6D9;
+}
+
+.node:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.header__site-name {
+    padding-top: 10%;
+}
+
+.header__site-name:hover {
+color: white;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  /*font: normal normal bold 70px/normal "Bad Script", Helvetica, sans-serif;*/
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 600ms cubic-bezier(0,0,.4,1);
+  -moz-transition: all 600ms cubic-bezier(0,0,.4,1);
+  -o-transition: all 600ms cubic-bezier(0,0,.4,1);
+  transition: all 600ms cubic-bezier(0,0,.4,1);
+}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+.header__logo-image {
+    width: 100px;
+}
+
+.header__logo-image:hover{
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spinnerRotate;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
