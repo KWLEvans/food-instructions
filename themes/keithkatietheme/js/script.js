@@ -14,14 +14,14 @@
 
   'use strict';
 
-  $(".node").hover(function(){console.log('in')}, function(){console.log('out')});
-
   // To understand behaviors, see https://drupal.org/node/756722#behaviors
   Drupal.behaviors.my_custom_behavior = {
     attach: function (context, settings) {
 
       // Place your code here.
-
+      $(".node", context).once('hover-add', function() {
+         $(".node").hover(function(){console.log('in')}, function(){console.log('out')});
+      });
     }
   };
 

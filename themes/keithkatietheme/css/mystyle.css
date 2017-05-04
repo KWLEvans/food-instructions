@@ -21,6 +21,38 @@ a:visited {
     color: #B9CECF;
 }
 
+.tabs__tab-link {
+    background-color: #7EC6D9;
+}
+
+.tabs__tab-link:hover {
+    background-color: #7EC6D9;
+}
+
+a.tabs__tab-link {
+    text-shadow: 0px 0px 0px;
+}
+
+a.tabs__tab-link:hover {
+    color: #B9CECF;
+    text-shadow: 0px 0px 0px;
+}
+
+.tabs__tab {
+    background-color: #7EC6D9;
+}
+
+/*.follow-link-wrapper-github {
+    padding-left: 3%;
+    background-repeat: none;
+    background-size: 10%;
+}*/
+
+a.follow-link-github {
+    padding-left: 25px;
+    background-repeat: no-repeat;
+}
+
 .node {
     background: rgba(255, 255, 255, 0.5);
     padding: 5%;
@@ -28,7 +60,7 @@ a:visited {
 }
 
 .node:hover {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, .7);
 }
 
 .header__site-name {
